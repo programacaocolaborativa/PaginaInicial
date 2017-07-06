@@ -8,4 +8,10 @@ Que atua com metodologias de Levantamento de requisitos, desenvolvimento e teste
 
 Provavelmente nossa página passará por mudanças ao longo do tempo e algumas adaptações.
 
-Boa sorte.
+
+
+
+No meu caso, utilizei NetBeans no Ubuntu 17.04
+Servidor GlassFish Server 4.1.1
+
+Enviarei um tutorial no grupo para configuração do ambiente de desenvolvimento para este projeto.
