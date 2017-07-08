@@ -7,15 +7,15 @@
  */
 declare(strict_types=1);
 
-namespace PlantasBr\Plugins;
+namespace ProColab\Plugins;
 
 
 use Aura\Router\RouterContainer;
 use Interop\Container\ContainerInterface;
-use PlantasBr\ServiceContainer;
-use PlantasBr\ServiceContainerInterface;
-use PlantasBr\View\Twig\TwigGlobals;
-use PlantasBr\View\ViewRenderer;
+use ProColab\ServiceContainer;
+use ProColab\ServiceContainerInterface;
+use ProColab\View\Twig\TwigGlobals;
+use ProColab\View\ViewRenderer;
 use Psr\Http\Message\RequestInterface;
 use Zend\Diactoros\ServerRequestFactory;
 

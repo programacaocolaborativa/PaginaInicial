@@ -10,6 +10,4 @@
 
  exec(__DIR__ . '/vendor/bin/phinx rollback -t=0');
  exec(__DIR__ . '/vendor/bin/phinx migrate');
- exec(__DIR__ . '/vendor/bin/phinx seed:run -s PessoaSeeder');
- exec(__DIR__ . '/vendor/bin/phinx seed:run -s CadastrosSeeder');
- exec(__DIR__ . '/vendor/bin/phinx seed:run -s EspeciesSeeder');
+ exec(__DIR__ . '/vendor/bin/phinx seed:run');

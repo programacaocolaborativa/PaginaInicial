@@ -6,11 +6,11 @@
  * Time: 01:03
  */
 
-namespace PlantasBr\View\Twig;
+namespace ProColab\View\Twig;
 
 
-use PlantasBr\Auth\Admin\AuthAdminInterface;
-use PlantasBr\Auth\AuthInterface;
+use ProColab\Auth\Admin\AuthAdminInterface;
+use ProColab\Auth\AuthInterface;
 
 class TwigGlobals extends \Twig_Extension implements \Twig_Extension_GlobalsInterface
 {

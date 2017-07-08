@@ -7,23 +7,23 @@
  */
 declare(strict_types=1);
 
-namespace PlantasBr\Plugins;
+namespace ProColab\Plugins;
 
 use Interop\Container\ContainerInterface;
-use PlantasBr\Models\Cadastros;
-use PlantasBr\Models\Categorias;
-use PlantasBr\Models\Contatos;
-use PlantasBr\Models\Continentes;
-use PlantasBr\Models\Especies;
-use PlantasBr\Models\Generos;
-use PlantasBr\Models\Glossario;
-use PlantasBr\Models\Origens;
-use PlantasBr\Models\Paises;
-use PlantasBr\Models\Pessoa;
-use PlantasBr\Models\Referencia;
-use PlantasBr\Models\TipoFolha;
-use PlantasBr\Repository\RepositoryFactory;
-use PlantasBr\ServiceContainerInterface;
+use ProColab\Models\Cadastros;
+use ProColab\Models\Categorias;
+use ProColab\Models\Contatos;
+use ProColab\Models\Continentes;
+use ProColab\Models\Especies;
+use ProColab\Models\Generos;
+use ProColab\Models\Glossario;
+use ProColab\Models\Origens;
+use ProColab\Models\Paises;
+use ProColab\Models\Pessoa;
+use ProColab\Models\Referencia;
+use ProColab\Models\TipoFolha;
+use ProColab\Repository\RepositoryFactory;
+use ProColab\ServiceContainerInterface;
 use Illuminate\Database\Capsule\Manager as Capsule;
 
 class DbPlugin implements PluginInterface

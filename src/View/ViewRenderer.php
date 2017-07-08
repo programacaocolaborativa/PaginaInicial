@@ -6,7 +6,7 @@
  * Time: 06:22
  */
 
-namespace PlantasBr\View;
+namespace ProColab\View;
 
 
 use Psr\Http\Message\ResponseInterface;

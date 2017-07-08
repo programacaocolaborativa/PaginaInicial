@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace PlantasBr;
+namespace ProColab;
 
 
 interface ServiceContainerInterface

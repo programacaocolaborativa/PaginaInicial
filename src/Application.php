@@ -6,9 +6,9 @@
  * Time: 02:38
  */
 declare(strict_types=1);
-namespace PlantasBr;
+namespace ProColab;
 
-use PlantasBr\Plugins\PluginInterface;
+use ProColab\Plugins\PluginInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;

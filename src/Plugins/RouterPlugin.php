@@ -7,12 +7,12 @@
  */
 declare(strict_types=1);
 
-namespace PlantasBr\Plugins;
+namespace ProColab\Plugins;
 
 
 use Aura\Router\RouterContainer;
 use Interop\Container\ContainerInterface;
-use PlantasBr\ServiceContainerInterface;
+use ProColab\ServiceContainerInterface;
 use Psr\Http\Message\RequestInterface;
 use Zend\Diactoros\ServerRequestFactory;
 

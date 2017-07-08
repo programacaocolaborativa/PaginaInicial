@@ -6,12 +6,12 @@
  * Time: 22:46
  */
 
-namespace PlantasBr\Auth;
+namespace ProColab\Auth;
 
 
 use Jasny\Authz;
 use Jasny\Authz\ByLevel;
-use PlantasBr\Models\UserInterface;
+use ProColab\Models\UserInterface;
 
 class Auth implements AuthInterface, Authz
 {

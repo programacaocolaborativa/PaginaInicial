@@ -7,7 +7,7 @@
  */
 declare(strict_types=1);
 
-namespace PlantasBr\Repository;
+namespace ProColab\Repository;
 
 
 interface RepositoryInterface

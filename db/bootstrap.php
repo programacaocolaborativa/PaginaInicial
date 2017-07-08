@@ -1,9 +1,9 @@
 <?php
 
-use PlantasBr\Application;
-use PlantasBr\Plugins\AuthPlugin;
-use PlantasBr\Plugins\DbPlugin;
-use PlantasBr\ServiceContainer;
+use ProColab\Application;
+use ProColab\Plugins\AuthPlugin;
+use ProColab\Plugins\DbPlugin;
+use ProColab\ServiceContainer;
 
 $serviceContainer = new ServiceContainer();
 $app = new Application($serviceContainer);

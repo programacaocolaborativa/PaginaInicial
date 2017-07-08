@@ -6,9 +6,9 @@
  * Time: 22:13
  */
 
-namespace PlantasBr\Plugins;
+namespace ProColab\Plugins;
 
-use PlantasBr\ServiceContainerInterface;
+use ProColab\ServiceContainerInterface;
 
 interface PluginInterface
 {

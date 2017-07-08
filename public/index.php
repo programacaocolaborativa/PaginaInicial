@@ -4,12 +4,12 @@ if (php_sapi_name() === 'cli-server' && is_file($filename)) {
     return false;
 }
 
-use PlantasBr\Application;
-use PlantasBr\Plugins\AuthPlugin;
-use PlantasBr\Plugins\DbPlugin;
-use PlantasBr\Plugins\RouterPlugin;
-use PlantasBr\Plugins\ViewPlugin;
-use PlantasBr\ServiceContainer;
+use ProColab\Application;
+use ProColab\Plugins\AuthPlugin;
+use ProColab\Plugins\DbPlugin;
+use ProColab\Plugins\RouterPlugin;
+use ProColab\Plugins\ViewPlugin;
+use ProColab\ServiceContainer;
 use Psr\Http\Message\ServerRequestInterface;
 
 require_once __DIR__ . '/../vendor/autoload.php';

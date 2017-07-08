@@ -6,7 +6,7 @@
  * Time: 23:27
  */
 
-namespace PlantasBr\Auth;
+namespace ProColab\Auth;
 
 
 use Jasny\Auth;
@@ -14,7 +14,7 @@ use Jasny\Auth\Sessions;
 use Jasny\Auth\User;
 use Jasny\Authz;
 use Jasny\Authz\ByGroup;
-use PlantasBr\Repository\RepositoryInterface;
+use ProColab\Repository\RepositoryInterface;
 
 class JasnyAuth extends Auth
 {

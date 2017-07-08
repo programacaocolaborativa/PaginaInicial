@@ -7,7 +7,7 @@
  */
 declare(strict_types=1);
 
-namespace PlantasBr\View;
+namespace ProColab\View;
 
 
 use Psr\Http\Message\ResponseInterface;

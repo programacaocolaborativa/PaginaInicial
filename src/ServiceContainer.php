@@ -6,7 +6,7 @@
  * Time: 03:35
  */
 
-namespace PlantasBr;
+namespace ProColab;
 
 use Xtreamwayz\Pimple\Container;
 

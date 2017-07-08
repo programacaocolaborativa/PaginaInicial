@@ -6,10 +6,10 @@
  * Time: 22:44
  */
 declare(strict_types=1);
-namespace PlantasBr\Auth;
+namespace ProColab\Auth;
 
 
-use PlantasBr\Models\UserInterface;
+use ProColab\Models\UserInterface;
 
 interface AuthInterface
 {

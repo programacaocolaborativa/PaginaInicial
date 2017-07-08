@@ -6,7 +6,7 @@
  * Time: 14:30
  */
 declare(strict_types=1);
-namespace PlantasBr\Repository;
+namespace ProColab\Repository;
 
 class DefaultRepository implements RepositoryInterface
 {

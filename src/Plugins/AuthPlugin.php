@@ -7,12 +7,12 @@
  */
 declare(strict_types=1);
 
-namespace PlantasBr\Plugins;
+namespace ProColab\Plugins;
 
 use Interop\Container\ContainerInterface;
-use PlantasBr\Auth\Auth;
-use PlantasBr\Auth\JasnyAuth;
-use PlantasBr\ServiceContainerInterface;
+use ProColab\Auth\Auth;
+use ProColab\Auth\JasnyAuth;
+use ProColab\ServiceContainerInterface;
 
 class AuthPlugin implements PluginInterface
 {
