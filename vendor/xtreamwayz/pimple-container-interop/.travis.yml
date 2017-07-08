@@ -1,0 +1,31 @@
+sudo: false
+
+language: php
+
+matrix:
+  fast_finish: true
+  include:
+    - php: 5.6
+      env:
+        - EXECUTE_CS_CHECK=true
+        - REMOVE_XDEBUG=true
+    - php: 7
+      env:
+        - REMOVE_XDEBUG=true
+    - php: hhvm
+  allow_failures:
+    - php: hhvm
+
+before_install:
+  - if [[ $REMOVE_XDEBUG == 'true' ]]; then phpenv config-rm xdebug.ini ; fi
+  - composer self-update
+
+install:
+  - travis_retry composer install --no-interaction --ignore-platform-reqs --prefer-source --no-scripts
+
+script:
+  - composer test
+  - if [[ $EXECUTE_CS_CHECK == 'true' ]]; then composer cs ; fi
+
+notifications:
+  email: true
